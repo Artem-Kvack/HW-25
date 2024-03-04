@@ -1,4 +1,50 @@
-.dz-list-item {
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.logo {
+    margin-right: 93px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}.dz-list-item {
     width: 60px;
     height: 60px;
     margin-bottom: 10px;
@@ -6,15 +52,22 @@
 }
 .dz-list-item:nth-child(1) {
     background-color: red;
-
+left: 50px;
 }
 .dz-list-item:nth-child(2) {
     background-color: blue;
-    
+    left: 100px;
+    top:  50px;
 }
 .dz-list-item:nth-child(3) {
     background-color: green;
+    bottom: 0;
+        left: 150px;
+        top: 100px;
 }
 .dz-list {
     position: relative;
+}
+.dz-list {
+    height: 150px;
 }
