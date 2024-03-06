@@ -53,17 +53,20 @@ img {
 .dz-list-item:nth-child(1) {
     background-color: red;
 left: 50px;
+
 }
 .dz-list-item:nth-child(2) {
     background-color: blue;
     left: 100px;
     top:  50px;
+   
 }
 .dz-list-item:nth-child(3) {
     background-color: green;
     bottom: 0;
         left: 150px;
         top: 100px;
+        
 }
 .dz-list {
     position: relative;
