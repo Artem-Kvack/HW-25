@@ -59,7 +59,7 @@ left: 50px;
     background-color: blue;
     left: 100px;
     top:  50px;
-    z-index: inherit;
+    z-index: 1;
    
 }
 .dz-list-item:nth-child(3) {
